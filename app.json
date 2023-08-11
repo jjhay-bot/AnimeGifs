@@ -1,10 +1,38 @@
 {
   "expo": {
+    "name": "AnimeGifs",
+    "slug": "AnimeGifs",
     "scheme": "acme",
-    "web": {
-      "bundler": "metro"
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#25292e"
     },
-    "name": "BucketList",
-    "slug": "BucketList"
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.jhay18.AnimeGifs"
+    },
+    "web": {
+      "bundler": "metro",
+      "favicon": "./assets/logo.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3b6b6095-3446-46d7-bcdb-192b83b605a7"
+      }
+    }
   }
 }

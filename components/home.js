@@ -75,7 +75,7 @@ export default function Home() {
 
       <TapGestureHandler onActivated={onPrev}>
         {/* <Text>Prev</Text> */}
-        <View style={[styles.center, styles.contentText, { top: 80, left: -20 }]}>
+        <View style={[styles.center, styles.contentText, { top: 120, left: -20 }]}>
           {!result.length ||
             (showDemo && (
               <IconButton
@@ -91,7 +91,7 @@ export default function Home() {
       </TapGestureHandler>
 
       <TapGestureHandler onActivated={onNext}>
-        <View style={[styles.center, styles.contentText, { top: 80, right: -20 }]}>
+        <View style={[styles.center, styles.contentText, { top: 120, right: -20 }]}>
           {/* <Text>Next</Text> */}
           {!result.length ||
             (showDemo && (
@@ -154,7 +154,8 @@ const styles = StyleSheet.create({
     borderRadius: 32,
   },
   searchContainer: {
-    height: 120,
+    height: 140,
+    margin: 10,
   },
   searchContent: {
     flex: 1,

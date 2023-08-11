@@ -8,7 +8,7 @@ import { resultVar } from "./reactiveVars";
 //   themeVar(!themeVar()?.breakpoints ? theme : {});
 // };
 const endpoint = `${process.env.G_URL}?key=${
-  "AIzaSyCby2V5i-dXhY9r8Z6Aej9N3X2i-ZItKn0" //temporary
+  "AIzaSyDPQ3zhf2YqCdWsaWfSfZbnRKulNZ_jl6o" //temporary
   // process.env.KEY
 }&cx=${process.env.CX}`;
 // &anime%20portrait%20gif%20zom%20100&start=0
